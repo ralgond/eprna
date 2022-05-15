@@ -1,29 +1,23 @@
-# README #
+# epRNA: Euclidean parametrization of RNA #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project depends on:
+* Python 3
+* TensorFlow 2
+* Seaborn
+* NumPy
+* SciPy
+* Matplotlib
+* Jupyter and Jupyter Notebook
+
+Most of these dependencies may be installed via `pip`.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+The Jupyter notebook `epRNA tutorial-v1.ipynb` provides a guide to reproducing figures from our manuscript, 
+as well as a production-ready script for predicting a coarse-grained RNA model from solely the nucleotide sequence.
 
-### How do I get set up? ###
+### Contact ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* [Dokholyan lab](https://dokhlab.med.psu.edu/)
+* [Nikolay Dokholyan](dokh@psu.edu)
+* [Congzhou M Sha] (cms6712@psu.edu)
