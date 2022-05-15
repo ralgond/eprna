@@ -19,5 +19,5 @@ as well as a production-ready script for predicting a coarse-grained RNA model f
 ### Contact ###
 
 * [Dokholyan lab](https://dokhlab.med.psu.edu/)
-* [Nikolay Dokholyan](dokh@psu.edu)
-* [Congzhou M Sha] (cms6712@psu.edu)
+* [Nikolay Dokholyan](mailto:dokh@psu.edu)
+* [Congzhou M Sha](mailto:cms6712@psu.edu)
