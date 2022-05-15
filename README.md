@@ -1,5 +1,6 @@
 # epRNA: Euclidean parametrization of RNA #
 
+### Dependencies ###
 This project depends on:
 * Python 3
 * TensorFlow 2
