@@ -10,13 +10,20 @@
 * Matplotlib
 * Jupyter and Jupyter Notebook
 
-### There are two methods of running epRNA ###
-1. Use the Docker container.
-2. Clone this repository (download it somewhere). Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Run the following commands.
+### Running epRNA locally ###
+Clone this repository (download it somewhere). Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Run the following commands.
 `conda create -n eprna tensorflow seaborn numpy scipy matplotlib jupyter notebook -y`
 `conda activate eprna`
 `jupyter notebook`
 The first command is only necessary during the first run.
+
+### Running epRNA from a Docker container ###
+Run 
+`docker pull cms6712/eprna`
+`docker run --rm --workdir /eprna \  
+  -it -p 8888:8888 \
+  cms6712/eprna jupyter notebook --allow-root --ip 0.0.0.0`
+
 ### What is this repository for? ###
 
 The Jupyter notebook `epRNA tutorial-v1.ipynb` provides a guide to reproducing figures from our manuscript, 
