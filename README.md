@@ -10,6 +10,8 @@
 * Matplotlib
 * Jupyter and Jupyter Notebook
 
+These are also listed in `eprna.yml`.
+
 ### Running epRNA locally ###
 Clone this repository (download it somewhere). Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Run the following commands.
 
