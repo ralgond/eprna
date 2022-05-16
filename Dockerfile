@@ -1,10 +1,17 @@
 FROM continuumio/miniconda
 
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN conda install -y \
+        jupyter \
+        matplotlib \
+        notebook \
+        numpy \
+        python-levenshtein \
+        scipy \
+        seaborn \
+        tensorflow \
+    && conda clean -ya
+
 WORKDIR /eprna
-
-RUN conda create -n eprna -y \
-  -c conda-forge \
-  jupyter notebook numpy scipy matplotlib tensorflow python-Levenshtein seaborn
-
-# The code to run when container is started:
-COPY ./* .
+COPY ./ /eprna
