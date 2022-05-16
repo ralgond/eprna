@@ -11,4 +11,3 @@ dependencies:
   - seaborn
   - jupyter
   - notebook
-prefix: /Users/mikesha/miniforge3/envs/eprna
