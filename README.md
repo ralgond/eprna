@@ -10,7 +10,13 @@
 * Matplotlib
 * Jupyter and Jupyter Notebook
 
-Most of these dependencies may be installed via `pip`.
+### There are two methods of running epRNA ###
+1. Use the Docker container.
+2. Clone this repository (download it somewhere). Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Run the following commands.
+`conda create -n eprna tensorflow seaborn numpy scipy matplotlib jupyter notebook -y
+conda activate eprna
+jupyter notebook
+`
 
 ### What is this repository for? ###
 
