@@ -8,7 +8,8 @@
 * NumPy
 * SciPy
 * Matplotlib
-* Jupyter and Jupyter Notebook
+* JupyterLab
+* python-Levenshtein (pip)
 
 These are also listed in `eprna.yml`.
 
@@ -31,7 +32,7 @@ Run
 
 `docker run --rm --workdir /eprna \  
   -it -p 8888:8888 \
-  cms6712/eprna jupyter notebook --allow-root --ip 0.0.0.0`
+  cms6712/eprna jupyter lab --allow-root --ip 0.0.0.0`
 
 ### What is this repository for? ###
 

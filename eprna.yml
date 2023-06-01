@@ -1,13 +1,13 @@
-name: eprna
+name: epRNA
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - numpy
-  - scipy
-  - matplotlib
   - tensorflow
-  - python-Levenshtein
   - seaborn
-  - jupyter
-  - notebook
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - scipy
+  - pip:
+    - python-Levenshtein
